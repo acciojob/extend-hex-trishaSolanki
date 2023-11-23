@@ -6,7 +6,7 @@ const extendHex = (shortHex) => {
 	const g = shortHex[1];
 	const b = shortHex[2]
 
-	const fullHex = `#${r.repeat(2)}${g.repeat(2)}${b.repeat(2)}`
+	const fullHex = `#${r.repeat(2)}${g.repeat(2)}${b.repeat(2)}`;
 	return fullHex.toUpperCase();
 };
 
