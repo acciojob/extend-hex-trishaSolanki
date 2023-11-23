@@ -1,6 +1,6 @@
 const extendHex = (shortHex) => {
   // write your code here
-	 const shortHex = shortHex.replace('#', '').toLoweCase();
+	 shortHex = shortHex.replace('#', '').toLoweCase();
 
 	const r = shortHex[0];
 	const g = shortHex[1];
